@@ -1,0 +1,135 @@
+body {
+    background-image: linear-gradient(47deg, white, pink, white);
+    padding: 40px;
+    font-family: "Nunito", serif;
+}
+
+.nunito-<uniquifier> {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.principal h1 {
+    color: #ff1493;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding: 10px;
+    text-shadow: rgb(255, 255, 255) 3px 5px 6px;
+}
+
+
+
+.social-icones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.social-icones img {
+    width: 50px;
+    height: 55px;
+    margin-right: 10px;
+    box-shadow: pink 5px 8px 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 50%;
+    transform: translateY(-10px);
+    /* Levanta o elemento para cima */
+    transition: transform 0.3s ease-out;
+    box-shadow: pink 10px 12px 8px;
+}
+
+.social-icones img:hover {
+    transform: scale(1.1);
+}
+
+
+.destaquedeprodutos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 80px;
+
+}
+
+.produto img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 180px;
+    height: 220px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    /* Laranja brilhante */
+    transform: scale(1.05);
+    border-radius: 45px;
+    margin-bottom: auto;
+    margin-left: 10px;
+
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 45px;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding: 10px;
+    text-shadow: rgb(182, 162, 162) 3px 5px 6px;
+
+}
+
+.adicionaraocarrinho {
+    padding: 10px 20px;
+    background-color: #db7894;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    box-shadow: #7e6d72c5 5px 8px 7px;
+    text-shadow: #ff1493 1px 10px 10px;
+}
+
+.carrinho {
+    border-radius: 45px;
+    width: 290px;
+    height: 150px;
+    background-color: #db7894;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+}

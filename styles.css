@@ -1,0 +1,267 @@
+body {
+    background-image: linear-gradient(47deg, #db7894, pink, #db7894);
+    padding: 20px;
+    font-family: "Nunito", serif;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+img {
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: pink;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+
+.carrinho {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#produtos-carrinho {
+    margin-bottom: 20px;
+}
+
+
+
+
+header {
+    text-align: left;
+}
+
+#text h1 {
+    color: #ff1493;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding: 10px;
+    text-shadow: rgb(255, 255, 255) 3px 4px 5px;
+
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+
+.carrinho {
+    background-color: pink;
+    display: flex;
+    border-radius: 25px;
+    width: 280px;
+    height: 150px;
+    padding: auto;
+    margin-top: 20px;
+}
+
+.produto button {
+    padding: 10px 20px;
+    background-color: #db7894;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    box-shadow: #5e424ac5 5px 8px 7px;
+
+}
+
+
+
+.curiosity {
+    background-color: #5e424a;
+    width: 380px;
+    border-radius: 30px;
+    box-shadow: #ff1493 10px 2px 5px;
+}
+
+.curiosidade2 {
+    background-color: #aa828d;
+    width: 380px;
+    border-radius: 30px;
+    box-shadow: #ff1493 10px 2px 5px;
+}
+
+.curiosidade3 {
+    background-color: pink;
+    width: 380px;
+    border-radius: 30px;
+    box-shadow: #ff1493 10px 2px 5px;
+}
+
+.curiosidade4 {
+    background-color: #5e424a;
+    width: 380px;
+    border-radius: 30px;
+    box-shadow: #ff1493 10px 2px 5px;
+}
+
+
+.listadeprodutos h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding: 5px;
+    text-shadow: rgb(60, 57, 57)5px 6px 8px;
+    background-image: linear-gradient(48deg, pink, #5f545a, pink);
+    border-radius: 5px;
+}
+
+
+
+.logotext h1 {
+    color: #ff1493;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding: 10px;
+    text-shadow: rgb(232, 216, 216) 3px 4px 5px;
+}
+
+.listadeprodutos {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.listadeprodutos img {
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    color: beige;
+}
+
+.destaquedeprodutos {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.sapatos {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.sapatos img {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.bolsas {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.bolsas img {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+
+
+.acessorios {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.acessorios img {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.listadeprodutos {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.listadeprodutos img {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding: 10px;
+    text-shadow: rgb(182, 162, 162) 3px 5px 6px;

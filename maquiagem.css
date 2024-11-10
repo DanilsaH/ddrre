@@ -1,0 +1,271 @@
+body {
+    background-color: rgb(182, 155, 155);
+    padding: 20px;
+    font-family: "Nunito", serif;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff1493;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.carrinho {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#produtos-carrinho {
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: left;
+}
+
+.logotext h1 {
+    color: #ff1493;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding: 10px;
+    text-shadow: pink 13px 14px 15px;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 45px;
+    box-shadow: rgb(255, 255, 255) 5px 14px 25px;
+}
+
+.carrinho {
+    background-color: pink;
+    display: flex;
+    border-radius: 25px;
+    width: 280px;
+    height: 150px;
+    padding: auto;
+    margin-top: 20px;
+}
+
+.produto button {
+    padding: 10px 20px;
+    background-color: #db7894;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    box-shadow: #5e424ac5 5px 8px 7px;
+
+}
+
+.adicionaraocarrinho {
+    padding: 10px 20px;
+    background-color: #db7894;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 210px;
+    height: 60px;
+    box-shadow: #7e6d72c5 5px 8px 7px;
+    text-shadow: #ff1493 1px 0px 0px;
+}
+
+
+
+
+.pele img {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.pele {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+
+}
+
+.labios img {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.labios {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+
+}
+
+.paletas img {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.paletas {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.acessorios img {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.acessorios {
+    background-color: pink;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+
+}
+
+.destaquedeprodutos img {
+    width: 190px;
+    height: 230px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: auto;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    transform: scale(3s);
+    align-content: center;
+    align-items: center;
+    border-radius: 38px;
+}
+
+.destaquedeprodutos {
+    background-color: #db7894;
+    padding: 20px;
+    color: white;
+    text-shadow: rgb(182, 162, 162) 3px 5px 6px;
+
+
+    .destaquedeprodutos :hover {
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .destaquedeprodutos h2 {
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: auto;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: #ffffff 1px 1px 3px;
+        color: beige;
+        font-family: "Righteous", sans-serif;
+        cursor: pointer;
+    }
+
+    .acessorios {
+        padding: 20px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: auto;
+        text-align: center;
+        color: beige;
+    }
+
+    .acessorios img {
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        border-radius: 5px;
+        margin-bottom: auto;
+    }
+
+    .nav-link {
+        color: #000000;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: "Righteous", sans-serif;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        padding-left: 20px;
+        padding: 10px;
+        text-shadow: rgb(182, 162, 162) 3px 5px 6px;
+
+    }
+
+    .cabelo img {
+        width: 250px;
+        height: 300px;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        border-radius: 5px;
+        margin-bottom: auto;
+    }
+
+    .cabelo {
+
+        background-color: pink;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        border-radius: 5px;
+        margin-bottom: auto;
+    }
